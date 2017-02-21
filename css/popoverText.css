@@ -1,0 +1,32 @@
+.has-width-textOverflow {
+    display: inline-block;
+    max-width: 50px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+/*修改popover背景颜色（包括小三角）*/
+.popover.black-flat.bottom > .arrow::after {
+    border-bottom-color: #292929;
+}
+.popover.black-flat.top > .arrow::after {
+    border-top-color: #292929;
+}
+.popover.black-flat.left > .arrow::after {
+    border-left-color: #292929;
+}
+.popover.black-flat.right > .arrow::after {
+    border-right-color: #292929;
+}
+.popover.black-flat {
+    background-color: #292929;
+    color: #ffffff;
+}
+
+/*修改成类似于title属性的样式，以兼容ie，火狐*/
+.popover.title {
+    padding: 0;
+    border-radius: 0;
+    max-width: 600px;
+    margin-left: 15%;
+}
