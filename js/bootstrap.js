@@ -1351,7 +1351,6 @@ if (typeof jQuery === 'undefined') {
       }else {
           return
       }
-      console.log(this.getDefaults())
 
     if (options.delay && typeof options.delay == 'number') {
       options.delay = {
