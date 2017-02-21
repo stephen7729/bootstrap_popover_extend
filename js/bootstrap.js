@@ -1344,9 +1344,9 @@ if (typeof jQuery === 'undefined') {
       typeof options.className === "string" && options.arrow === false?  options.template = '<div class="popover '+ options.className +' role="tooltip"><h3 class="popover-title"></h3><div class="popover-content"></div></div>' : options.template;
       if(typeof options.className === "string"){
         if(options.arrow === false){
-            options.template = '<div class="popover '+ options.className +' role="tooltip"><h3 class="popover-title"></h3><div class="popover-content"></div></div>';
+            options.template = '<div class="popover '+ options.className +'" role="tooltip"><h3 class="popover-title"></h3><div class="popover-content"></div></div>';
         }else {
-            options.template = '<div class="popover '+ options.className +' role="tooltip"><div class="arrow"></div><h3 class="popover-title"></h3><div class="popover-content"></div></div>';
+            options.template = '<div class="popover '+ options.className +'" role="tooltip"><div class="arrow"></div><h3 class="popover-title"></h3><div class="popover-content"></div></div>';
         }
       }else {
           return
